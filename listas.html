@@ -6,6 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos Jogados</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        
+        .serie{
+            color: green;
+        }
+        
+        .filmes{
+            color: blue;
+        }
+        
+        .jogo{
+            color: orangered;
+        }
+        p> .jogo{
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,28 +39,29 @@
     <p>Três últimos jogos que eu joguei:</p>
 
     <ol>
-    <li> Elden Ring.</li>
-    <li> FIFA 23.</li>
-    <li> CSGO.</li>
+    <li class="jogo"> Elden Ring.</li>
+    <li class="jogo"> FIFA 23.</li>
+    <li class="jogo"> CSGO.</li>
     </ol>
+    <p> E o <span class="jogo">Elden Ring</span> foi meu preferido.</p>
 
     <p>Filme e Séries que assisti:</p>
     <ul>
         <li>
             <div><h1>Filmes</h1></div>
                 <ul style="color:blue">
-                    <li>Interstelar</li>
-                    <li>Gato de Botas 2</li>
-                    <li>Velozes e Furiosos, Tokyo Drift</li>
+                    <li class="filmes">Interstelar</li>
+                    <li class="filmes">Gato de Botas 2</li>
+                    <li class="filmes">Velozes e Furiosos, Tokyo Drift</li>
                 </ul>
         </li>
             
         <li>
             <div><h1>Séries</h1></div>
                 <ul style="color:green">
-                    <li>The Witcher</li>
-                    <li>Brooklyn 99</li>
-                    <li>Game of Thrones</li>
+                    <li class="serie">The Witcher</li>
+                    <li class="serie">Brooklyn 99</li>
+                    <li class="serie">Game of Thrones</li>
                 </ul>
         </li>
     </ul>
